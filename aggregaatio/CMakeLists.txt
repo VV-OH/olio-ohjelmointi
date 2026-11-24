@@ -7,7 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(aggregaatio main.cpp
     Employee.cpp
-    Employee.h)
+    Employee.h
+    company.h company.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS aggregaatio
